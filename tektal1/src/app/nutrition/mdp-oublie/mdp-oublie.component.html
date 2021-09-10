@@ -18,7 +18,9 @@
                             <div class="card">
                                 <div class="card fat">
                                     <div class="card-body">
-                                        <h4 class="card-title">Forgot Password?</h4><br />
+                                        <h4 class="card-title">Forgot Password?</h4>
+                                        <p>Enter your email to get a password reset link</p>
+                                        <br/>
                                         <form method="POST" class="my-login-validation" novalidate="">
                                             <div class="form-group">
                                                 <!-- <label for="email">E-Mail Address</label> -->
@@ -34,20 +36,12 @@
                                                     Réinitialiser mon mot de passe
                                                 </button>
                                             </div><br />
-                                            <p class="pop">Or</p>
+                                            <a routerLink="/motDePasseOublie" class="float-right">
+                                               Remember your Password?
+                                            </a>
                                         </form>
                                         <br />
-                                        <div class="social">
-                                            <button class="btn1">
-                                                <i class="fab fa-facebook-f"></i> Login
-                                            </button>
-                                            <button class="btn2">
-                                                <i class="fab fa-google" aria-hidden="true"></i>Login
-                                            </button>
-                                        </div>
-                                        <div class="mt-4 text-center text">
-                                            Don't have an account? <a routerLink="/inscription">Inscription</a>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
