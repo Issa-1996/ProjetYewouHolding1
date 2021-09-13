@@ -30,11 +30,13 @@ ul{
 }
 .footer{   
 	background-color: #16ab8f;
-    padding: 70px 0;
-    position: relative;
-	text-align : center ;
-	bottom : 0 ; width : 100% ;
+    padding: 10px 0;
+	text-align : center ; 
+	position : relative ;
+	bottom : 0 ; 
+	width : 100% ;
 	display :inline- block ; 
+	margin-top: 200px;
 	vertical-align : top ;
 	font-size : 13px ;
 }
