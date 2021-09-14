@@ -11,9 +11,11 @@ body {
 
 .float-right {
     color: black;
-    margin-left: 370px;
+    margin-left: 350px;
 }
-.dropdown-item{width: 40%;}
+.dropdown-item{
+    width: 41%;
+}
 .my-login-page .brand {
     width: 90px;
     height: 90px;

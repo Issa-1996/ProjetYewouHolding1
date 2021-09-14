@@ -9,6 +9,7 @@ import { FooterComponent } from './nutrition/footer/footer.component';
 import { ConnexionComponent } from './nutrition/connexion/connexion.component';
 import { InscriptionComponent } from './nutrition/inscription/inscription.component';
 import { HomeComponent } from './nutrition/home/home.component';
+import { MdpOublieComponent } from './nutrition/mdp-oublie/mdp-oublie.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HomeComponent } from './nutrition/home/home.component';
     FooterComponent,
     ConnexionComponent,
     InscriptionComponent,
-    HomeComponent
+    HomeComponent,
+    MdpOublieComponent
   ],
   imports: [
     BrowserModule,
