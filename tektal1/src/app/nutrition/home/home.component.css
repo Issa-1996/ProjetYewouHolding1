@@ -117,6 +117,9 @@ margin-left: 250px;
     width: 160px;
     height: 17vh;
 }
+.cls{
+    margin-left:500px;
+}
 .car-9 {
     background-image: url("/assets/pomme1.jpg");
     margin-top:20px;
