@@ -1,0 +1,22 @@
+#jumbultron{
+    text-align : center ; 
+	position : relative ;
+	top : -55% ; 
+	width : 100% ;
+    height: auto;
+	display :inline- block ; 
+	vertical-align : top ;
+}
+#card {
+    margin-left: 8%;
+    background-size : contain;
+    background-position : 50% 50%; 
+    display : inline-block;
+    width : 150px; height : 150px;
+    border: none;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px; 
+    margin-bottom: 15%;
+    text-align: center;
+ }
