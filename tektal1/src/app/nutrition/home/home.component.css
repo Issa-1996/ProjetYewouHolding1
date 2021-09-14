@@ -140,7 +140,7 @@ margin-left: 250px;
     background-color:#f0fffb;
     height: 100%;
     width: 95%;
-    height:45rem;
+    height:50rem;
     margin-left:50px ;
     
   }
@@ -152,6 +152,13 @@ margin-left: 250px;
 #ap{height: 0.5px;}
 .sdf{
     margin-left: 190px;
+}
+.imgs{
+    /* margin-left: 10px; */
+    width: 18%;
+}
+.imgss{
+    margin-left: 25px;
 }
 .voir{
     margin-top: 10px;
