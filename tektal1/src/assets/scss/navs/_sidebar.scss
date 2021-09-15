@@ -1,8 +1,8 @@
 // Sidebar
+
 .sidebar {
     width: $sidebar-collapsed-width;
     min-height: 100vh;
-
     .nav-item {
         position: relative;
 
@@ -92,6 +92,7 @@
     }
 
     #sidebarToggle {
+
         width: 2.5rem;
         height: 2.5rem;
         text-align: center;
@@ -474,4 +475,6 @@
             color: fade-out($white, 0.5);
         }
     }
+    background-color: red;
+
 }
