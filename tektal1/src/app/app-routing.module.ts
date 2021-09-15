@@ -4,12 +4,15 @@ import { ConnexionComponent } from './nutrition/connexion/connexion.component';
 import { HomeComponent } from './nutrition/home/home.component';
 import { InscriptionComponent } from './nutrition/inscription/inscription.component';
 import { MdpOublieComponent } from './nutrition/mdp-oublie/mdp-oublie.component';
+import { DashboardComponent } from './nutrition/dashboard/dashboard.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'inscription', component: InscriptionComponent},
   { path: 'connexion', component: ConnexionComponent },
   { path: 'motDePasseOublie', component: MdpOublieComponent},
+  { path: 'deshboard', component: DashboardComponent},
 ];
 
 @NgModule({

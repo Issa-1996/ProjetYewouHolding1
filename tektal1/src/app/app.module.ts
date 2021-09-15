@@ -11,6 +11,7 @@ import { InscriptionComponent } from './nutrition/inscription/inscription.compon
 import { HomeComponent } from './nutrition/home/home.component';
 import { MdpOublieComponent } from './nutrition/mdp-oublie/mdp-oublie.component';
 import { DashboardComponent } from './nutrition/dashboard/dashboard.component';
+import { NavGuaucheComponent } from './nutrition/dashboard/nav-guauche/nav-guauche.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DashboardComponent } from './nutrition/dashboard/dashboard.component';
     InscriptionComponent,
     HomeComponent,
     MdpOublieComponent,
-    DashboardComponent
+    DashboardComponent,
+    NavGuaucheComponent,
   ],
   imports: [
     BrowserModule,
