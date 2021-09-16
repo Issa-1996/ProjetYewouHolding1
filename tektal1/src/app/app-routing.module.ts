@@ -24,8 +24,8 @@ const routes: Routes = [
   {path:'presentation',component:PresentationComponent},
   {path:'lieu',component:LieuComponent},
   {path:'Recommandation',component:RecommandationComponent},
-  {path:'horaire',component:HoraireComponent},
-  {path:'bar',component:BarComponent}
+  {path:'bar',component:BarComponent},
+  {path:'horaire',component:HoraireComponent}
 ];
 
 @NgModule({

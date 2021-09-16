@@ -16,8 +16,8 @@ import { NavGuaucheComponent } from './nutrition/dashboard/nav-guauche/nav-guauc
 import { PresentationComponent } from './nutrition/presentation/presentation.component';
 import { LieuComponent } from './nutrition/lieu/lieu.component';
 import { RecommandationComponent } from './nutrition/recommandation/recommandation.component';
-import { HoraireComponent } from './nutrition/horaire/horaire.component';
 import { BarComponent } from './nutrition/bar/bar.component';
+import { HoraireComponent } from './nutrition/horaire/horaire.component';
 
 @NgModule({
   declarations: [
@@ -34,8 +34,8 @@ import { BarComponent } from './nutrition/bar/bar.component';
     PresentationComponent,
     LieuComponent,
     RecommandationComponent,
-    HoraireComponent,
-    BarComponent
+    BarComponent,
+    HoraireComponent
   ],
   imports: [
     BrowserModule,
