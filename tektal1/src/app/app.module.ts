@@ -11,8 +11,6 @@ import { InscriptionComponent } from './nutrition/inscription/inscription.compon
 import { HomeComponent } from './nutrition/home/home.component';
 import { MdpOublieComponent } from './nutrition/mdp-oublie/mdp-oublie.component';
 import { DashboardComponent } from './nutrition/dashboard/dashboard.component';
-<<<<<<< HEAD
-=======
 import { NavGuaucheComponent } from './nutrition/dashboard/nav-guauche/nav-guauche.component';
 import { PresentationComponent } from './nutrition/presentation/presentation.component';
 import { LieuComponent } from './nutrition/lieu/lieu.component';
@@ -22,7 +20,6 @@ import { ChatsComponent } from './nutrition/chats/chats.component';
 import { BlogComponent } from './nutrition/blog/blog.component';
 import { MonProfilPraticienComponent } from './nutrition/mon-profil-praticien/mon-profil-praticien.component';
 import { HoraireComponent } from './nutrition/horaire/horaire.component';
->>>>>>> 1dafc0c53bb282b0f16cc384231658cbf5344380
 
 @NgModule({
   declarations: [
@@ -33,9 +30,6 @@ import { HoraireComponent } from './nutrition/horaire/horaire.component';
     InscriptionComponent,
     HomeComponent,
     MdpOublieComponent,
-<<<<<<< HEAD
-    DashboardComponent
-=======
     DashboardComponent,
     NavGuaucheComponent,
     PresentationComponent,
@@ -46,7 +40,6 @@ import { HoraireComponent } from './nutrition/horaire/horaire.component';
     BlogComponent,
     MonProfilPraticienComponent,
     HoraireComponent
->>>>>>> 1dafc0c53bb282b0f16cc384231658cbf5344380
   ],
   imports:[
     BrowserAnimationsModule,
