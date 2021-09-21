@@ -28,6 +28,9 @@ body{
 ul{ 
 	list-style: none;
 }
+.imgg{
+	width: 40%;
+}
 .footer{   
 	background-color: #16ab8f;
     padding: 10px 0;

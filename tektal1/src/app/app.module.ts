@@ -11,7 +11,15 @@ import { InscriptionComponent } from './nutrition/inscription/inscription.compon
 import { HomeComponent } from './nutrition/home/home.component';
 import { MdpOublieComponent } from './nutrition/mdp-oublie/mdp-oublie.component';
 import { DashboardComponent } from './nutrition/dashboard/dashboard.component';
+import { MonProfilPraticienComponent } from './nutrition/mon-profil-praticien/mon-profil-praticien.component';
 import { NavGuaucheComponent } from './nutrition/dashboard/nav-guauche/nav-guauche.component';
+import { PresentationComponent } from './nutrition/presentation/presentation.component';
+import { LieuComponent } from './nutrition/lieu/lieu.component';
+import { RecommandationComponent } from './nutrition/recommandation/recommandation.component';
+import { HoraireComponent } from './nutrition/horaire/horaire.component';
+import { BarComponent } from './nutrition/bar/bar.component';
+import { ChatsComponent } from './nutrition/chats/chats.component';
+import { BlogComponent } from './nutrition/blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +31,15 @@ import { NavGuaucheComponent } from './nutrition/dashboard/nav-guauche/nav-guauc
     HomeComponent,
     MdpOublieComponent,
     DashboardComponent,
+    MonProfilPraticienComponent,
     NavGuaucheComponent,
+    PresentationComponent,
+    LieuComponent,
+    RecommandationComponent,
+    HoraireComponent,
+    BarComponent,
+    ChatsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
