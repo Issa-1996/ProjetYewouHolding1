@@ -2,9 +2,10 @@
     width: 100%;
     height: 60%;
 }
-#form1{
-    height: 55px;
-    margin-right: 1%;
+
+.img-responsive {
+    width: 110%;
+    height:40rem;
 }
 #form2{
     height: 55px;
