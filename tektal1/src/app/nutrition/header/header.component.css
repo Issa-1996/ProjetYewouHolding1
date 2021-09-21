@@ -1,0 +1,22 @@
+.d-flex{
+    margin-left: 2%;
+    width: auto;
+}
+.d-flex ul{
+    margin-left: 1%;
+}
+.d-flex a{
+    margin-left: 1%;
+    margin-top: 8%;
+    color: black;
+}
+.d-flex h2{
+    margin-left: -1%;
+    margin-top: 8%;
+}
+#navbarColor03{
+    margin-right: 4%;
+}
+ul img{
+    width: 50%;
+}

@@ -10,6 +10,7 @@ import { ConnexionComponent } from './nutrition/connexion/connexion.component';
 import { InscriptionComponent } from './nutrition/inscription/inscription.component';
 import { HomeComponent } from './nutrition/home/home.component';
 import { MdpOublieComponent } from './nutrition/mdp-oublie/mdp-oublie.component';
+import { DashboardComponent } from './nutrition/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MdpOublieComponent } from './nutrition/mdp-oublie/mdp-oublie.component'
     ConnexionComponent,
     InscriptionComponent,
     HomeComponent,
-    MdpOublieComponent
+    MdpOublieComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
