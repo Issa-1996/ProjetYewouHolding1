@@ -28,14 +28,10 @@ const routes: Routes = [
   {path:'presentation',component:PresentationComponent},
   {path:'lieu',component:LieuComponent},
   {path:'Recommandation',component:RecommandationComponent},
-
   {path:'horaire',component:HoraireComponent},
   {path:'bar',component:BarComponent},
   {path:'chats',component:ChatsComponent},
   {path:'blog',component:BlogComponent},
-
-
-
   {path:'bar',component:BarComponent},
   {path:'horaire',component:HoraireComponent}
 ];
