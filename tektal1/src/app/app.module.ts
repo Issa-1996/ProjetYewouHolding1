@@ -23,10 +23,12 @@ import { HoraireComponent } from './nutrition/horaire/horaire.component';
 
 @NgModule({
   declarations: [
+    AppComponent,
     HeaderComponent,
     FooterComponent,
     ConnexionComponent,
     InscriptionComponent,
+    HomeComponent,
     MdpOublieComponent,
     DashboardComponent,
     NavGuaucheComponent,
@@ -40,7 +42,10 @@ import { HoraireComponent } from './nutrition/horaire/horaire.component';
     HoraireComponent
   ],
   imports:[
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
-  providers: []
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

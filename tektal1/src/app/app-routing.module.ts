@@ -17,6 +17,24 @@ import { BlogComponent } from './nutrition/blog/blog.component';
 
 
 
+const routes: Routes = [
+  {path: '', component: HomeComponent },
+  {path: 'inscription', component: InscriptionComponent },
+  {path: 'connexion', component: ConnexionComponent },
+  {path: 'motDePasseOublie', component: MdpOublieComponent },
+  {path: 'sidebar', component: DashboardComponent },
+  {path:'monProfilPraticien',component:MonProfilPraticienComponent},
+  {path:'presentation',component:PresentationComponent},
+  {path:'lieu',component:LieuComponent},
+  {path:'Recommandation',component:RecommandationComponent},
+  {path:'horaire',component:HoraireComponent},
+  {path:'bar',component:BarComponent},
+  {path:'chats',component:ChatsComponent},
+  {path:'blog',component:BlogComponent},
+  {path:'bar',component:BarComponent},
+  {path:'horaire',component:HoraireComponent}
+];
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
